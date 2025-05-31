@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d6e1ff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding: 50px 0px;
+}
+
+.card {
+  max-width: 450px;
+  width: 90%;
+  border-radius: 20px;
+  background-color: #ffffff;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  display: block;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card-content {
+  text-align: center;
+  padding: 2rem;
+}
+
+.card-content h1 {
+  font-size: 1.5rem;
+  color: #1f2e55;
+  margin-bottom: 1rem;
+}
+
+.card-content p {
+  color: #717fa6;
+  line-height: 1.5;
+}
+
+.plan {
+  width: 90%;
+  max-width: 354px;
+  height: 98px;
+  border-radius: 10px;
+  background-color: #f7f9ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem auto;
+}
+
+.annual-plan {
+  display: flex;
+  align-items: center;
+}
+
+.square-icon {
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: #dfe6fb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square-icon img {
+  width: 17px;
+}
+
+.plan-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.plan a {
+  color: #382ae1;
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.plan a:hover {
+  opacity: 0.7;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.btn {
+  width: 90%;
+  max-width: 354px;
+  height: 50px;
+  padding: 1rem;
+  background-color: #382ae1;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-secondary {
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: #717fa6;
+}
